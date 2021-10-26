@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/gradient_bg"
+    tools:context=".SignUp">
+
+    <ImageView
+        android:id="@+id/imgmind"
+        android:layout_width="328dp"
+        android:layout_height="192dp"
+        android:layout_marginTop="60dp"
+        android:contentDescription="@string/location"
+        android:src="@drawable/ic_undraw_location_search_re_ttoj"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.506"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <LinearLayout
+        android:id="@+id/linearLayout4"
+        android:layout_width="329dp"
+        android:layout_height="52dp"
+        android:layout_marginTop="130dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imgmind">
+
+        <com.google.android.material.textfield.TextInputLayout
+            android:id="@+id/email_il"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <com.google.android.material.textfield.TextInputEditText
+                android:id="@+id/et_email"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:hint="@string/email_address"
+                android:inputType="textEmailAddress">
+
+            </com.google.android.material.textfield.TextInputEditText>
+        </com.google.android.material.textfield.TextInputLayout>
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/linearLayout5"
+        android:layout_width="329dp"
+        android:layout_height="52dp"
+        android:layout_marginTop="8dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/linearLayout4">
+
+        <com.google.android.material.textfield.TextInputLayout
+            android:id="@+id/password2_il"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            app:passwordToggleEnabled="true">
+
+            <com.google.android.material.textfield.TextInputEditText
+                android:id="@+id/et_password"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:hint="@string/password"
+                android:inputType="textPassword">
+
+            </com.google.android.material.textfield.TextInputEditText>
+
+        </com.google.android.material.textfield.TextInputLayout>
+
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/btn_sign_up"
+        android:layout_width="356dp"
+        android:layout_height="48dp"
+        android:layout_marginTop="68dp"
+        android:background="#00000000"
+        android:text="@string/sign_up"
+        android:textColor="@color/nude"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.49"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/linearLayout5" />
+    <TextView
+        android:id="@+id/tvLoggedIn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="You are not logged in"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/btn_sign_up"
+        app:layout_constraintVertical_bias="0.233" />
+
+    <Button
+        android:id="@+id/btn_4"
+        android:layout_width="357dp"
+        android:layout_height="46dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginBottom="8dp"
+        android:background="#00000000"
+        android:text="@string/login_instead"
+        android:textAlignment="center"
+        android:textColor="@color/nude"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.777"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/btn_sign_up"
+        app:layout_constraintVertical_bias="0.655" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

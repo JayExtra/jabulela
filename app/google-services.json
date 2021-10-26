@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "302475084461",
+    "project_id": "jabulela-ce636",
+    "storage_bucket": "jabulela-ce636.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:302475084461:android:1cd5f3bf348a184f64fc24",
+        "android_client_info": {
+          "package_name": "com.example.jabulela"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "302475084461-crtfeabnifudj3t94va1p537bfqu3p97.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyB_8rg2nS6bm2xsrVZClvU-P61GDAM9BRQ"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "302475084461-crtfeabnifudj3t94va1p537bfqu3p97.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
